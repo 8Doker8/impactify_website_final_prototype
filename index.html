@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">         
+    <link rel="stylesheet" href="style.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+    <title>Impactify - Change unchangeable</title>
+</head>
+<body>
+    <div class="title_page">
+
+        <!--Navigation start-->
+
+        <nav class="navbar">
+            
+            <div class="navigation">
+
+                    <img src="./images/Impactify_Logo.png" alt="Impactify Logo" class="impactify_logo_title">
+                
+                    <div class="navitems">
+                        <a href="#" class="nav_item1" style="text-shadow: 2px 2px 4px #000000;" id="nav_1">Mājas lapa</a>
+                        <a href="#vieta1_href" class="nav_item2" style="text-shadow: 2px 2px 4px #000000;" id="nav_2">Vietas</a>
+                        <a href="#sacensibu_href" class="nav_item3" style="text-shadow: 2px 2px 4px #000000;" id="nav_3">Par mums</a>
+                        <a href="#kontakti_href" class="nav_item4" style="text-shadow: 2px 2px 4px #000000;" id="nav_4">Kontakti</a>
+                        <div class="languages">
+                            <a href="#en" class="nav_lang1" data-reload>EN</a>
+                            <a href="#lv" class="nav_lang1" data-reload>LV</a>
+                            <a href="#ru" class="nav_lang2" data-reload>RU</a>
+                        </div>
+                       
+                    </div>
+                   
+
+            </div>
+        </nav>
+
+        <!--Navigation end-->
+
+        <h1 class="Aizkraukle" style="text-shadow: 2px 2px 4px #000000;">Aizkraukle</h1>
+
+    </div>
+
+    <section class="vietas">
+
+        <h1 class="vietas_title" id="vieta1_href">Vietas</h1>
+
+        <!--Gallery Slider Start-->
+
+        <div class="slideshow-container Large_gallery_1">
+            <div class="mySlides6 fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./images/Large_Carousel_1.jpg" alt="" style="width: 88vw; border-radius: 8px; height: 68vh;">
+                
+            </div>
+            <div class="mySlides6 fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./images/Large_Carousel_2.jpg" alt="" style="width: 88vw; border-radius: 8px; height: 68vh;">
+                
+            </div>
+            <div class="mySlides6 fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./images/Large_Carousel3.jpg" alt="" style="width: 88vw; border-radius: 8px; height: 68vh;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+
+        </div>
+        
+        <!--Gallery Slider End-->
+
+        
+        <div class="vieta1" >
+            <div class="slideshow-container">
+                <div class="mySlides3 fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/Darza_1.png" alt="" style="width: 44vw; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/Darza_2.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;" >
+                    
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/Darza_3.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+
+            </div>
+
+            <div class="vietaright_text">
+                <h1 class="Vietas_Title">Dārza iela 1</h1> 
+                <p id="Darza_Main">
+                    Uzņēmumam piederošs zemes gabals: <b>platībā 21321m^2 ar asfaltētu piebraucamo ceļu.</b><br>
+                    Līdz tuvākajai šosejai A6 ir <b>1.5km</b>, līdz dzelzceļa līnijai - <b>50m.</b><br>
+                    <b>Elektrība ir pievilkta, gar īpašumu iet centrālais ūdensvads un gāzes vads.</b><br>
+                    Ir <b>kanalizācija</b> un <b>savienots ar pilsētas notekūdeņiem</b>.<br>
+                    Objekta cena - <b>120 000 eur.</b>
+                </p>                       
+            </div>          
+        </div>
+
+        <div class="vieta">
+            <div class="accordion">
+                <button type="button" class="accordion__button" id="acord_more">Paplašināt Saturu</button>
+                <div class="accordion__content" style="width: 88vw;">
+                    <img src="./images/no info.jpg" alt="" class="no_info" style="padding-left: 25vw;">
+                </div>
+            </div>
+        </div>
+
+        <div class="vieta">
+
+            <div class="vietaleft_text">
+                <h1 class="Vietas_Title">Industrialais parks</h1>
+                <p id="Industrial_Main">Aizkraukles industriālais parks - lieliska vieta, kur attīstīt lielus investīciju projektus.<br> Kopējā zemes platība - <b>37800m2</b>, no kuriem kopējā telpu platība - <b>21000m2</b>.<br> Tā ietver: Kopējā ražošanas telpu platība – <b>15000 m2</b> Kopējā veikalu/ofisu telpu platība – <b>6000m2</b><br> Administratīvās un ražošanas telpas ir ar augstu griestu segumu - <b>3m un 7-11m respektīvi</b>.<br> Vārti angāriem - 5-6m augstumā, 5.5m platumā<br> Industriālais parks atrodas ģeogrāfiski izdevīgā zonā.<br> Tas atrodas <b>90km</b> attālumā no Rīgas, šoseja Rīga-Maskava atrodas <b>17km</b> no industriālā parka.<br> Tāpat tuvumā ir Skrīveri (9km), Koknese (15km) un Jaunjelgava (15km)
+                    </p>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides1 fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/Industrial_1.png" alt="" style="width: 44vw; height: 35vh; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/Industrial_2.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/Industrial_3.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="vieta">
+            <div class="accordion">
+                <button type="button" class="accordion__button" id="acord_more2">Paplašināt Saturu</button>
+                <div class="accordion__content">
+                    <p id="Industrial_sub">
+                        Biroju telpas iespējams pielāgot nomnieka vajadzībām. Tiek veikta ēkas perimetra videonovērošana. Ir pieejams interneta pieslēgums. Nomas cena sākot no 1.00 euro/m2, neieskaitot PVN, komunālos maksājumus un apsaimniekošanas maksu. Veikalu telpas arī iespējams pielāgot nomnieka vajadzībām, kā arī tiek veikta videonovērošana pa ēkas perimetru. Nomas cena sākot no 1.50 euro/m2, neieskaitot PVN, komunālos maksājumus un apsaimniekošanas maksu. Ražošanas un noliktavu telpas ar sevi ietver plašu bezmaksas autostāvvietu. Tā atrodas 300m no pilsētas centra, kā arī tuvumā ir šoseja Rīga-Maskava. Ir 24h piekļuve nomājamām telpām, kā arī pieejami krāvēju pakalpojumi un arhīva glabāšana. Var iznomāt telpas gan ar, gan bez telferiem. Telpas iespējams pielāgot nomnieka vajadzībām, kā arī ēkas perimetrā tiek veikta videonovērošana. Nomas cena sākot no 1.00 euro/m2, neieskaitot PVN, komunālos maksājumus un apsaimniekošanas maksu.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vieta">
+            
+            <div class="slideshow-container">
+                <div class="mySlides2 fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/Rupniecibas_1.png" alt="" style="width: 44vw; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/Rupniecibas_2.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/Rupniecibas_3.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+
+            </div>
+
+            <div class="vietaright_text">
+                <h1 class="Vietas_Title">Rūpniecības iela 9</h1>
+                <p id="Rupniecibas_Main">Rūpniecības iela 9,  Aizkraukle, Aizkraukles nov., kadastra numurs 3201 001 0225, tirgus vērtība novērtēšanas dienā, tas  ir 2020.gada 24.janvāris, ir noteikta: <br>
+                    <b>172 000 EUR (Viens simts septiņdesmit divi tūkstoši euro).</b>  
+                    ar realizācijas laiku līdz 12 mēnešiem <br>
+                    Pēc vērtētāja viedokļa novērtējamā objekta visvairāk iespējamās piespiedu pārdošanas vērtības novērtēšanas dienā, t.i., 2020.gada 24.janvārī, noteiktas:  
+                    <b>120 000 EUR (Viens simts divdesmit tūkstoši euro).</b>  
+                    ar realizācijas laiku līdz 9 mēnešiem <br>
+                    <b></b>
+                    vērtība ar realizācijas laiku līdz 3 mēnešiem 
+                    </p>
+            </div>
+        </div>
+
+        <div class="vieta">
+            <div class="accordion">
+                <button type="button" class="accordion__button" id="acord_more3">Paplašināt Saturu</button>
+                <div class="accordion__content">
+                    <p id="Rupniecibas_sub">
+                        Adrese: <b>Rūpniecības iela 9, Aizkraukle, Aizkraukles nov. Kadastra numurs: 3201 001 0225</b> <br>
+
+                        Novērtējamais objekts sastāv no:  <br>
+
+                        <b>003, administratīvā ēka,  kadastra apz. 3201 001 0286 001, palīgēka, kadastra apz. 3201 001 0286  003. 
+                            Uz zemes gabala atrodas AS “Latvenergo” piederoša transformatora  apakšstacija TP-76806.</b> <br>
+
+                        Zemes gabala kopplatība:  apbūves platība: <br>
+
+                        <b>13144 m2 
+                            Kopējā platība – 3312,6 m2, t.sk., 
+                            darbnīca - angārs, kadastra apz. 3201 001 0225 001 – 1161,7 kv.m, noliktava, kadastra apz. 3201 001 0225 002 – 85,9 kv.m, darbnīca - angārs, kadastra apz. 3201 001 0225 003 – 841,0 kv.m, administratīvā ēka, kadastra apz. 3201 001 0286 001 – 1095,2 kv.m, palīgēka, kadastra apz. 3201 001 0286 003 – 128,8 kv.m. Attīstīta.</b> <br>
+
+                        Infrastruktūra:  
+                        apkārtne:<br>
+
+                        <b>Ražošanas/ noliktavu / biroja ēku apbūve, sabiedriska rakstura ēku  apbūve.</b> <br>
+
+                        Pašreizējais izmantošanas veids:  <b>labākais</b>  <br>
+
+                        <b>Zemes gabals ar ražošanas/ noliktavu/ biroju ēku apbūvi (ražošanas/  noliktavu/ biroju telpas).</b> <br>
+
+                        Izmantošanas veids:  labierīcības:  <br>
+
+                        <b>emes gabals ar ražošanas/ noliktavu/ biroju ēku apbūvi (ražošanas/  noliktavu/ pakalpojumu/ biroju telpas).</b> <br>
+
+                        Viena nekustamā īpašuma, kura sastāvā ir zemes gabals, kadastra  apz.3201 001 0034, un uz tā esošā apbūve: darbnīca - angārs, kadastra  apz. 3201 001 0225 001, noliktava, kadastra apz. 3201 001 0225 002,  darbnīca - angārs, kadastra apz. 3201 001 0225 <br>
+
+                        <b>Centralizēta elektroapgāde, ūdensapgāde, kanalizācija, lokālā centrālā apkure, apsardzes un ugunsdrošības signalizācijas; asfaltēts  piebraucamais ceļš un laukumi starp ēkām.</b>
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vieta">
+
+            <div class="vietaleft_text">
+                <h1 class="Vietas_Title">Skolas iela 8</h1>
+                <img src="./images/no info.jpg" alt="" class="no_info">
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides5 fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/Skolas_1.png" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/Skolas_2.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">              
+                </div>
+                <div class="mySlides5 fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/Skolas_3.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+
+            </div>
+        </div>
+
+        <div class="vieta">
+            <div class="accordion">
+                <button type="button" class="accordion__button" id="acord_more6">Paplašināt Saturu</button>
+                <div class="accordion__content" style="width: 88vw;">
+                    <p>
+                        Still working...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jaunceltnes iela 20 -->
+
+        <div class="vieta">
+            
+            <div class="slideshow-container">
+                <div class="mySlides4 fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="./images/Jaunceltnes_2.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+                <div class="mySlides4 fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="./images/Jaunceltnes_1.jpg" alt="" style="width: 44vw; border-radius: 8px; height: 35vh;">
+                    
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+
+            </div>
+
+            <div class="vietaright_text">
+                <h1 class="Vietas_Title">Jaunceltnes iela 20</h1>
+                <p id="Jaunceltnes_Main"> Atrašanās vieta pilsēta (iela), pagasts: <b>Jaunceltnes iela 20, Aizkraukle, Aizkraukles novads</b><br>
+                    N/Ī veids zeme, ražošanas telpas, noliktavas u.c.: <b>Zeme</b><br>
+                    Kopējā zemes platība m 2 ; ha: <b>21321 m2</b><br>
+                    Īpašnieks fiziska persona, pašvaldība, uzņēmums: <b>Uzņēmums</b> <br>
+                    Objekta kadastra numurs Zemesgrāmatā norādītais zemes vai ēkas kadastra numurs: <b>32010010338</b> <br>
+                    Zemes cena EUR (m2 / kopējā): <b>120 000</b>     
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="accordion" style="padding-top: 5rem;">
+                <button type="button" class="accordion__button" id="acord_more5">Paplašināt Saturu</button>
+                <div class="accordion__content">
+                    <p id="Jaunceltnes_sub">
+                        Piebraucamais ceļš Ir / Nav (asfalts, grants, cik garš nepieciešams ): <b>Ir (asfalts)</b><br>
+                        Tuvākā šoseja / lielceļš attālums km: <b>1,5 km</b><br>
+                        Dzelzceļa līnija pievads objektā, attālums km līdz dzelzceļa līnijai: <b>50 m</b><br>
+                        Elektrība cik tālu, jauda: <b>Elektrība ir</b><br>
+                        Ūdens cik tālu, kāda veida pieslēgums: <b>Gar īpašumu iet centrālais ūdensvads</b><br>
+                        Gāze Ir / Nav (cik tālu, kāda spiediena pieslēgums (G1-G6): <b>Gar īpašumu iet gāzes vads</b> <br>
+                        Notekūdeņi / Kanalizācija Jā / Nē (cik tālu): <b>Pilsētas notekūdeņi, kanalizācija</b>    
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <div class="form">
+        <form action="" class="atsauksmesforma">
+            <h1 class="title_form" id="form_title">Atsauksmes Forma</h1>
+            <div class="row">
+                <div class="first_element">
+                    <label for="fname" class='form_name' id="fname_text">Vārds</label>
+                    <input type="text" id="fname" required>
+                </div>
+                <div class="secont_element">
+                    <label for="fcompany" class="form_company" id="fcompany_text">Uzņēmuma nosaukums</label>
+                    <input type="text" id="fcompany" required>
+                </div>           
+            </div>
+            <div class="row">
+                <div class="first_element">
+                    <label for="fsurname" class='form_name' id="fsurname_text">Uzvārds</label>
+                    <input type="text" id="fsurname" required>
+                    <label for="femail" class='form_name' id="femail_text">Email</label>
+                    <input type="email" id="femail" required>
+                </div>
+                <div class="secont_element">
+                    <label for="fcomment" class="form_company" id="fcomment_text">Komentarijs</label>
+                    <input type="text" id="fcomment" required>
+                </div>              
+            </div>   
+            <div class="row">
+                <div class="first_element">
+                    <label for="fnumber" class='form_name' id="fnumber_text">Talrunis</label>
+                    <input type="tel" id="fnumber" required>
+                </div>  
+                <div class="second_element">
+                    <input type="submit" class="submition" value="Atsūtīt" id='fsubmit'>
+
+                </div>             
+            </div>        
+         </form>
+    </div>
+
+    <section class="contacts">
+        <h1 class="Kontakti" id="kontakti_href">Kontakti</h1>
+
+        <div class="row">
+            <div class="first_element_kontakti">
+                <h5 class="Direktors" id="kontakti_title1">Impactify</h5>
+                <h3 class="vardsuzvards" id="kontakti_name1">Katrina Strazda</h3>
+                <a href="mailto:dmitrijs.bezrebrijs@gmail.com" id="emailperson'class="emailperson1" style="color:#002FAC; margin-top: 1.25rem;">team.impactify@gmail.com</a>
+                <p href="tel:#" class="phoneperson1">+37126644897</p>
+            </div>
+            <div class="second_element_kontakti">
+                <a href="https://www.instagram.com/impactify_official/" class="insta"><img src="./images/Instagram.png" alt="" class='insta'></a>
+                <a href="https://www.instagram.com/impactify_official/" class="insta"><img src="./images/facebook.png" alt="" class='insta'></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="sacensiba">
+                <h1 class="Sacensibu_Title" id="sacensibu_href">Par mums</h1>
+               
+                <img src="./images/Us.jpg" alt="" class="about_us">
+    </div>
+    <section class="footer">
+        <img src="./images/Impactify_Logo.png" alt=""class='impactify_footer'>
+
+        <div class="navitems_footer">
+            <a href="#" class="nav_item1" style="color: #000000" id="nav_1_b">Mājas lapa</a>
+            <a href="#vieta1_href" class="nav_item2" style="color: #000000" id="nav_2_b">Vietas</a>
+            <a href="#sacensibu_href" class="nav_item3" style="color: #000000" id="nav_3_b">Par mums</a>
+            <a href="#kontakti_href" class="nav_item4" style="color: #000000" id="nav_4_b">Kontakti</a>
+
+            <!-- <div class="languages">
+                <p class="lv">LV</p>
+                <p class="en">EN</p>
+                <p class="ru">RU</p>
+            </div> -->
+        </div>
+    </section>
+    <script type='text/javascript' src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
