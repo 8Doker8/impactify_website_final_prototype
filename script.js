@@ -135,8 +135,6 @@ if (window.location.hash) {
         document.getElementById('kontakti_href').innerHTML=language.en.kontakti_href;
         document.getElementById('kontakti_title1').innerHTML=language.en.kontakti_title1;
         document.getElementById('kontakti_name1').innerHTML=language.en.kontakti_name1;
-        document.getElementById('kontakti_title2').innerHTML=language.en.kontakti_title2;
-        document.getElementById('kontakti_name2').innerHTML=language.en.kontakti_name2;
         document.getElementById('sacensibu_href').innerHTML=language.en.sacensibu_href;
         document.getElementById('nav_1_b').innerHTML=language.en.nav_1_b;
         document.getElementById('nav_2_b').innerHTML=language.en.nav_2_b;
@@ -173,8 +171,6 @@ if (window.location.hash) {
         document.getElementById('kontakti_href').innerHTML=language.ru.kontakti_href;
         document.getElementById('kontakti_title1').innerHTML=language.ru.kontakti_title1;
         document.getElementById('kontakti_name1').innerHTML=language.ru.kontakti_name1;
-        document.getElementById('kontakti_title2').innerHTML=language.ru.kontakti_title2;
-        document.getElementById('kontakti_name2').innerHTML=language.ru.kontakti_name2;
         document.getElementById('sacensibu_href').innerHTML=language.ru.sacensibu_href;
         document.getElementById('nav_1_b').innerHTML=language.ru.nav_1_b;
         document.getElementById('nav_2_b').innerHTML=language.ru.nav_2_b;
@@ -212,8 +208,6 @@ if (window.location.hash) {
         document.getElementById('kontakti_href').innerHTML=language.lv.kontakti_href;
         document.getElementById('kontakti_title1').innerHTML=language.lv.kontakti_title1;
         document.getElementById('kontakti_name1').innerHTML=language.lv.kontakti_name1;
-        document.getElementById('kontakti_title2').innerHTML=language.lv.kontakti_title2;
-        document.getElementById('kontakti_name2').innerHTML=language.lv.kontakti_name2;
         document.getElementById('sacensibu_href').innerHTML=language.lv.sacensibu_href;
         document.getElementById('nav_1_b').innerHTML=language.lv.nav_1_b;
         document.getElementById('nav_2_b').innerHTML=language.lv.nav_2_b;
@@ -230,9 +224,7 @@ if (window.location.hash) {
         document.getElementById('acord_more2').innerHTML=language.lv.acord_more2;
         document.getElementById('Industrial_sub').innerHTML=language.lv.Industrial_sub;
         document.getElementById('acord_more6').innerHTML=language.lv.acord_more6;
-        document.getElementById('Jaunceltnes_sub').innerHTML=language.lv.Jaunceltnes_sub;
-        
-        
+        document.getElementById('Jaunceltnes_sub').innerHTML=language.lv.Jaunceltnes_sub;      
     }
 }
 
